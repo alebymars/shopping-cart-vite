@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container {
+  display: flex;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+.column {
+  padding: 10px;
+}
+
+.large {
+  flex: 3;
+  background-color: #f0f0f0;
+}
+
+.small {
+  flex: 1;
+  background-color: #f0f0f0;
+}

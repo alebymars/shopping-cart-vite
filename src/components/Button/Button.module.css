@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@200;400;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 0;
+  padding: 10px;
+  width: 100%;
+  color: rgba(0, 140, 255, 1);
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Rubik", sans-serif;
+}
+
+.button:hover {
+  transition: all 0.3s ease;
+  background-color: rgba(0, 140, 255, 0.178);
+  color: rgba(0, 140, 255, 1);
+}
+
+.disabled {
+  cursor: default;
+  background-color: rgba(118, 123, 128, 0.373);
+  color: rgba(0, 140, 255, 1);
+}
+
+.disabled:hover {
+  background-color: rgba(118, 123, 128, 0.373);
+  color: rgba(0, 140, 255, 1);
+}

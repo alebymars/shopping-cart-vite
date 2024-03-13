@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@200;400;700&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+
+.buttonContainer {
+  display: flex;
+  border: 1.7px solid rgba(0, 140, 255, 1);
+  border-radius: 7px;
+  overflow: hidden;
+  color: rgba(0, 140, 255, 1);
+}

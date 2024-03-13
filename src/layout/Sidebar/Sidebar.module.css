@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.basketCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.titleBlock {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.image {
+  background: #ffffff;
+  padding: 10px;
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  width: 90%;
+  height: 100%;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.price {
+  font-size: 14px;
+}
+
+.count {
+  font-size: 14px;
+}
+
+.totalPrice {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.total {
+  transition: all 0.3s ease;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.empty {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .total {
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-size: 13px;
+  }
+
+  .empty {
+    transition: all 0.3s ease;
+    font-weight: 600;
+    font-size: 14px;
+  }
+}
